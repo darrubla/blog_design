@@ -40,3 +40,25 @@ header .header--icons__container .icons {
   justify-self: end;
   margin-right: 50px;
 }
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+.nav--logo__container {
+  margin-left: 50px;
+  height: inherit;
+}
+
+.nav--logo__container img {
+  margin-top: 10px;
+  height: 70px;
+}
+
+.profile--link {
+  place-self: center flex-end;
+  margin-right: 50px;
+  border-bottom: 1px solid black;
+}
