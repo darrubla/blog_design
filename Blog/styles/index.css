@@ -8,6 +8,9 @@ body {
   font-family: "Roboto mono", monospace;
   margin: 0;
   padding: 0;
+}
+
+.index--body {
   position: fixed;
   top: 0;
   bottom: 0;
