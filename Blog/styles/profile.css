@@ -1,0 +1,51 @@
+:root {
+  --fnbg-color: #9db9ba;
+  --main-bg-color: #328385;
+}
+
+.main-profile {
+  display: grid;
+  grid-template: 2fr / 2fr 2fr;
+}
+
+.profile--container {
+  background-color: var(--fnbg-color);
+  padding: 0 50px 40px;
+}
+
+.profile--img__container {
+  grid-column: 1;
+}
+
+.profile--img__container img {
+  width: 35%;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+
+.profile-info--container {
+  grid-column: 2;
+  margin-top: 10px;
+}
+
+.profile-info--container p {
+  margin-bottom: 25px;
+}
+
+.blogs-posts--container .post-profile--container {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+  text-align: initial;
+  /* border: 1px solid var(--main-bg-color); */
+}
+
+.post-profile--container p {
+  margin-bottom: 35px;
+}
+
+.post-profile--container img {
+  height: 165.375px;
+  width: 294px;
+}
