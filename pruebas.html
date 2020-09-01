@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <form action="https://dispropan.sagicc.co/apiv1/canal-website/website-callback" method="post" style="font-family: Arial;">
-      <input type="hidden" id="sagicc_token" name="sagicc_token" value="eda5cfd170e438bce7cba775fe464eac">
+  <body> 
+    <form action="https://tecnomovil.sagicc.co/apiv1/canal-website/website-callback" method="post" style="font-family: Arial;">
+      <input type="hidden" id="sagicc_token" name="sagicc_token" value="de744593dca4b7cf5a93b6422a4fa026">
       <div style="margin-bottom: 15px;">
         <label for="nombre" style="display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: 700;">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required style="display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px;">
@@ -28,23 +28,26 @@
         <label for="mensaje" style="display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: 700;">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="8" required style="display: block; width: 100%; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px;"></textarea>
       </div>
-      <button type="submit" style="display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; touch-action: manipulation; cursor: pointer; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; color: #333; background-color: #fff; border-color: #ccc;">Enviar</button>
+      <button type="submit" style="display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; touch-action: manipulation; cursor: pointer; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; color: #333; background-color: #fff; border-color: #ccc;">
+        Enviar
+      </button>
     </form>
+    
     <script>
       window.sagicc_chat_config = { 
-        back_url: 'https://dispropan.sagicc.co', chat_token: '107ee6af79b5455888bbb52a553720e2' ,
+        back_url: 'https://tecnomovil.sagicc.co', chat_token: '05744fadb23d2eec291d2c97f746d096' ,
         chat_type: 'widget', client_first_name: '', client_last_name: '', client_email: '', auto_initialize: false
       }; 
       var sagicc_chat_isSecured = (window.location && window.location.protocol == 'https:');
       var sagicc_chat_css = document.createElement('link');
       sagicc_chat_css.setAttribute('rel', 'stylesheet');
       sagicc_chat_css.setAttribute(
-        'href', sagicc_chat_isSecured ? 'https://dispropan.sagicc.co/chat/assets/css/sagicc-chat.css' : 'https://dispropan.sagicc.co/chat/assets/css/sagicc-chat.css'
+        'href', sagicc_chat_isSecured ? 'https://tecnomovil.sagicc.co/chat/assets/css/sagicc-chat.css' : 'https://tecnomovil.sagicc.co/chat/assets/css/sagicc-chat.css'
       );
       document.head.appendChild(sagicc_chat_css);
       var sagicc_chat_js = document.createElement('script');
       sagicc_chat_js.setAttribute(
-        'src', sagicc_chat_isSecured ? 'https://dispropan.sagicc.co/chat/assets/js/sagicc-chat.js' : 'https://dispropan.sagicc.co/chat/assets/js/sagicc-chat.js'
+        'src', sagicc_chat_isSecured ? 'https://tecnomovil.sagicc.co/chat/assets/js/sagicc-chat.js' : 'https://tecnomovil.sagicc.co/chat/assets/js/sagicc-chat.js'
       );
       document.body.appendChild(sagicc_chat_js);
     </script>
